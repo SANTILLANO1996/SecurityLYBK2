@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_security__lybk"
+        tools:context=".Security_LYBK">
+
+    
+    <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="77dp"
+            android:layout_height="33dp"
+            android:text="My house"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            android:layout_marginBottom="315dp" android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:text="Encendido"
+            android:layout_width="138dp"
+            android:layout_height="79dp"
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored" android:textColorLink="@id/button"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark" android:shadowColor="@color/colorAccent"
+            android:visibility="visible"
+            tools:layout_editor_absoluteY="54dp" tools:layout_editor_absoluteX="40dp"/>
+    <Button
+            android:text="Apagado"
+            android:layout_width="150dp"
+            android:layout_height="81dp"
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteY="54dp"
+            tools:layout_editor_absoluteX="218dp" android:textColorHint="@color/design_default_color_primary_dark"/>
+    <ImageView
+            android:layout_width="283dp"
+            android:layout_height="373dp" app:srcCompat="@mipmap/house_PNG63"
+            tools:layout_editor_absoluteY="182dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.504"/>
+
+</android.support.constraint.ConstraintLayout>
